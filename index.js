@@ -1,4 +1,4 @@
-const Discord = require('discord.js');
+﻿const Discord = require('discord.js');
 const client = new Discord.Client();
 const token = process.env.token
 require('http').createServer().listen(3000)
@@ -28,4 +28,4 @@ fs.readdir('./Events/', (error, f) => {
         });
 });
 
-client.login(token);
+client.login("NjIzNTI2Mzk0NjU5NjAyNDMy.XYJD5g.ZfxotyVVpaCR3BURaDQh8mXhVgI");
