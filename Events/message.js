@@ -9,6 +9,7 @@ module.exports = (client, message) => {
         let args = message.content.slice(prefix.length).trim().split(/ +/g);
         let commande = args.shift();
         let cmd = client.commands.get(commande);
+        let msg = message.content.slice(prefix.length)
 
         if (!cmd) { return; }
             cmd.run(client, message, args);
