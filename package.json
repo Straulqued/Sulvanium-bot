@@ -10,7 +10,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "build": "sulvanium",
+    "build": "node.js build --output public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Straulqued",
