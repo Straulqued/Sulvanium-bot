@@ -28,4 +28,4 @@ fs.readdir('./Events/', (error, f) => {
         });
 });
 
-client.login("NjIzNTI2Mzk0NjU5NjAyNDMy.XYJD5g.ZfxotyVVpaCR3BURaDQh8mXhVgI");
+client.login(token);
