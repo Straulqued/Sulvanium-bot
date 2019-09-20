@@ -10,7 +10,6 @@
   },
   "devDependencies": {},
   "scripts": {
-    "build": "node index.js --ouput public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Straulqued",
