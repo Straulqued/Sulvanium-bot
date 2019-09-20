@@ -1,6 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const token = process.env.token
+require('http').createServer().listen(3000)
 client.commands = new Discord.Collection();
 const fs = require('fs');
 
