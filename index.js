@@ -17,6 +17,14 @@ fs.readdir('./Commandes/', (error, f) => {
         });
 });
 
+client.on('guildMemberAdd', member => {
+  console.log('User' + member.user.tag + 'has joined the server!');
+
+  var role = member.guild.roles.find('name', 'user');
+  member.addRole('621065142616195072');
+})
+
+
 fs.readdir('./Events/', (error, f) => {
     if (error) { return console.error(error); }
         console.log(`${f.length} events chargés`);
