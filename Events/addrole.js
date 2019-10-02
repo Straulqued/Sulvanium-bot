@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const prefix = '!';
 
-module.exports = (client, message) => {
+module.exports = (client, message, args) => {
 	bot.on('guildMemberAdd', member => {
   	console.log('User' + member.user.tag + 'has joined the server!');
 
