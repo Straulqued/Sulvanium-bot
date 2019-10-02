@@ -7,4 +7,7 @@ module.exports = (client, message, args) => {
 
   	var role = member.guild.roles.find('name', 'user');
   	member.addRole(621065142616195072);
+
+
+}
 }
