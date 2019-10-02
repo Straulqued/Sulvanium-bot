@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
-const valo = new Discord.WebhookClient('624638998286958621', '-UoT5RtlpHVW5ERfcLX5ufCGtriFYlIOlp9Wk0XIZasZrB-dR6stLjdRkJe3_M2D-WtG');
-const pala = new Discord.WebhookClient('624639397140234282', '-6XORFPdzSHmGgMhBBiZxA3_-jvXZF67wIr_oyvklk6IyfyP-zFpe3BxIevqjisI_60W')
+const valo = new Discord.WebhookClient(process.env.valo1, process.env.valo2);
+const pala = new Discord.WebhookClient(process.env.pala1, process.env.pala2)
 module.exports.run = (client, message, args) => {
 	if(args[0] == "valo"){
 			const item = args[1];
