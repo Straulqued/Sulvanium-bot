@@ -6,8 +6,6 @@ module.exports = (client, message, args) => {
   	console.log('Le joueur' + member.user.tag + 'a rejoint le serveur!');
 
   	var role = member.guild.roles.find('name', 'user');
-  	member.addRole(621065142616195072);
-
-
-}
+  	member.addRole(621065142616195072);}
+)
 }
